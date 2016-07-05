@@ -1,0 +1,131 @@
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #BDBDBD;
+  font-size: 1em;
+}
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #448AFF;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #BDBDBD;
+  font-size: 1em;
+}
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #448AFF;
+}
+input::placeholder, textarea::placeholder {
+  color: #BDBDBD;
+  font-size: 1em;
+}
+input:focus::placeholder, textarea::focus:placeholder {
+  color: #448AFF;
+}
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #BDBDBD;
+  font-size: 1em;
+}
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: #448AFF;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: #BDBDBD;
+  font-size: 1em;
+}
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: #448AFF;
+}
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: #BDBDBD;
+  font-size: 1em;
+}
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: #448AFF;
+}
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #BDBDBD;
+  font-size: 1em;
+}
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: #448AFF;
+}
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #BDBDBD;
+  font-size: 1em;
+}
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #448AFF;
+}
+
+#form {
+  position: relative;
+  width: 40em;
+  margin: auto;
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+
+input {
+  width: 34em;
+  height: 2.5em;
+  padding: 0 4em 0 2em;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  background: transparent;
+  outline: none;
+  color: #424242;
+  border: solid 0.15em #424242;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: rgb(255, 229, 127);
+  background: rgba(255, 229, 127, 0.7);
+  color: #424242;
+}
+
+textarea {
+  width: 34em;
+  height: 16em;
+  padding: 1em 4em 0 2em;
+  font-family: 'Raleway', sans-serif;
+  background: transparent;
+  outline: none;
+  color: #424242;
+  font-size: 1em;
+  border: solid 0.15em #424242;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: rgb(255, 229, 127);
+  background: rgba(255, 229, 127, 0.7);
+  color: #424242;
+}
+
+#submit {
+  width: 40.25em;
+  padding: 0 3em 0 3em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color:  #424242;
+  outline:none;
+  cursor: pointer;
+  border: solid 0.15em #424242;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+#submit:hover {
+  color:  #424242;
+}

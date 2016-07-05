@@ -1,0 +1,13 @@
+.projectTitle {
+  font-weight: bold;
+}
+
+.projectLink {
+  color: #424242;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.projectLink:hover {
+  color: #448AFF;
+}
