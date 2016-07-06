@@ -93,4 +93,7 @@
   .boxContainer {
     width: 300px;
   }
+  .last {
+    margin-bottom: 2em;
+  }
 }
