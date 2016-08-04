@@ -1,13 +1,75 @@
+.boxContainer1 {
+  height: 6em;
+  background:url("../images/GamesBanner.png") no-repeat top center scroll #fff;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  z-index: 1;
+}
+
+.boxContainer2 {
+  height: 6em;
+  background:url("../images/ArtBanner.png") no-repeat top center scroll #fff;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  z-index: 1;
+}
+
+.boxContainer3 {
+  height: 6em;
+  background:url("../images/MusicBanner.png") no-repeat top center scroll #fff;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  z-index: 1;
+}
+
+.boxContainer4 {
+  height: 6em;
+  background:url("../images/ProtoBanner.png") no-repeat top center scroll #fff;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  z-index: 1;
+}
+
 .projectTitle {
   font-weight: bold;
+  color: #fff;
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 1em;
+  padding-left: 1em;
+  height: 2em;
+  background-color: #000;
+  opacity: 0.8;
 }
 
-.projectLink {
-  color: #424242;
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-}
-
-.projectLink:hover {
-  color: #448AFF;
+.projectTitle:hover {
+  opacity: 0.2;
 }

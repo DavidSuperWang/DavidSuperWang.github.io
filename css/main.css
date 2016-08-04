@@ -201,6 +201,10 @@ p {
   width: 100%;
 }
 
+.footerNav {
+  margin-top: 2em;
+}
+
 .highlight {
   float: left;
   color: #424242;
