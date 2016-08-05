@@ -42,6 +42,9 @@
   .boxContainer {
     width: 466px;
   }
+  .copyrightTop {
+    float: left;
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 465px){
@@ -58,9 +61,6 @@
   }
   header {
     padding-bottom: 2em;
-  }
-  #copyright {
-
   }
   .title {
     padding-top: 6em;
@@ -102,4 +102,7 @@
   .minicontainer {
     margin-top: 4em;
   }
+  .copyrightTop {
+    float: left;
+  }  
 }

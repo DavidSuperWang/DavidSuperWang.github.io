@@ -58,18 +58,31 @@
   z-index: 1;
 }
 
+.projectLink {
+  text-decoration: none;
+}
+
 .projectTitle {
   font-weight: bold;
   color: #fff;
   font-size: 2em;
   font-family: 'Montserrat', sans-serif;
   padding-top: 1em;
-  padding-left: 1em;
   height: 2em;
   background-color: #000;
   opacity: 0.8;
+  width: 100%;
 }
 
 .projectTitle:hover {
   opacity: 0.2;
+}
+
+.portfolioTitle {
+  text-align: center;
+  padding-top: 2em;
+}
+
+.copyrightTop {
+  font-family: 'Montserrat', sans-serif;
 }
